@@ -2,8 +2,6 @@
 title: "Predicting House Prices Project"
 date: 2020-07-29
 tags: [machine learning, missing data, NYC Condomimum]
-header:
-  image: "/images/perceptron/percept.jpg"
 excerpt: "Predicting house prices in NYC"
 mathjax: "true"
 ---
