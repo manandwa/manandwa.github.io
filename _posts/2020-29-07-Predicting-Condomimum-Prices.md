@@ -22,7 +22,7 @@ The data that we are using from this project come from five separate excel files
 
 The data is for June 2019-May 2020
 
-```{r message=FALSE}
+```{r}
 library(readxl)
 library(readr)
 library(stringr)
