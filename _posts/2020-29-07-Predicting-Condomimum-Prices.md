@@ -1,3 +1,4 @@
+---
 title: "Predicting House Prices Project"
 date: 2020-07-29
 tags: [machine learning, missing data, NYC Condomimum]
@@ -5,7 +6,7 @@ header:
   image: "/images/perceptron/percept.jpg"
 excerpt: "Predicting house prices in NYC"
 mathjax: "true"
-
+---
 This project will explore the following questions:
 
 1. How well does the size of a property (measured in gross square feet) explain or predict sale price across New York City as a whole? 
