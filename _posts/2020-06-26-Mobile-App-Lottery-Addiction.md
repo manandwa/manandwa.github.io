@@ -18,11 +18,11 @@ This project is design a mobile app that guides lottery addicts through exercise
 
 We will need two functions the factorial and combination functions
 
-formula for factorial function is \$$ n! = n * (n - 1) * (n - 2) * \dots * 2 * 1 $$
+formula for factorial function is $$ n! = n * (n - 1) * (n - 2) * \dots * 2 * 1 $$
 
-formula for combination function is \$$C^n_k = \binom{n}{k}= \frac{n!}{k!(n - k)!}$$
+formula for combination function is $$C^n_k = \binom{n}{k}= \frac{n!}{k!(n - k)!}$$
 
-for factorial by definition when \$$n = 0$$ or \$$n = 1$$ it is \$$1$$
+for factorial by definition when $$ n = 0 $$ or $$ n = 1 $$ it is $$ 1 $$
 
 ```{r}
 factorial <- function(n) {
