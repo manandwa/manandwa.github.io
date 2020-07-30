@@ -18,11 +18,11 @@ This project is design a mobile app that guides lottery addicts through exercise
 
 We will need two functions the factorial and combination functions
 
-formula for factorial function is $n! = n * (n - 1) * (n - 2) * \dots * 2 * 1$
+formula for factorial function is $$n! = n * (n - 1) * (n - 2) * \dots * 2 * 1$$
 
-formula for combination function is $C^n_k = \binom{n}{k}= \frac{n!}{k!(n - k)!}$
+formula for combination function is $$C^n_k = \binom{n}{k}= \frac{n!}{k!(n - k)!}$$
 
-for factorial by definition when $n = 0$ or $n = 1$ it is $1$
+for factorial by definition when $$n = 0$$ or $$n = 1$$ it is $$1$$
 
 ```{r}
 factorial <- function(n) {
@@ -46,9 +46,9 @@ We will create a function that will take an input of six different numbers (a si
 It will calculate the probability of winning the big prize and output it in a user readable format
 
 Theory
-$Total = \frac{49!}{6!*(49 - 6)!} = \frac{49!}{6!43!}$
+$$Total = \frac{49!}{6!*(49 - 6)!} = \frac{49!}{6!43!}$$
 
-$P(Win) = \frac{1}{Total}$
+$$P(Win) = \frac{1}{Total}$$
 
 Total is the total number of combinations that we can get using 6 different numbers out of 49 numbers
 
@@ -183,8 +183,8 @@ We will now calculate the probability of the following:
 
 1. We will need the number of sucessful outcomes (3, 4, 5)
 2. We will also need the total number of outcomes (combinations)
-3. Our sucess ratio is the following: $C^6_n * C^\left(49 - n\right)_\left(6 - n\right)$ 
-3. Our probability will be the following: $\frac{success}{total}$
+3. Our sucess ratio is the following: $$C^6_n * C^\left(49 - n\right)_\left(6 - n\right)$$
+3. Our probability will be the following: $$\frac{success}{total}$$
 4. Finallly we print out the probability
 
 ```{r}
