@@ -188,7 +188,7 @@ plt.hist(bike_rentals['cnt'])
 
 
 
-![png](Basics_files/Basics_2_1.png)
+![png](/images/bike-rentals/Basics_2_1.png)
 
 
 
