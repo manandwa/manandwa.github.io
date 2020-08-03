@@ -291,7 +291,7 @@ plt.imshow(np_image, cmap='gray_r')
 
 
 
-![png](Basics_files/Basics_6_1.png)
+![png](/images/digits-classifer/Basics_6_1.png)
 
 
 
@@ -317,7 +317,7 @@ axis[1, 3].imshow(data.iloc[1299].values.reshape(8,8), cmap='gray_r')
 
 
 
-![png](Basics_files/Basics_7_1.png)
+![png]/images/digits-classifer/Basics_7_1.png)
 
 
 # K-Nearest Neighbors Model
@@ -391,7 +391,7 @@ plt.plot(k_values, k_mean_accuracies)
 
 
 
-![png](Basics_files/Basics_10_1.png)
+![png](/images/digits-classifer/Basics_10_1.png)
 
 
 # Neural Network with One Hidden Layer
@@ -480,7 +480,7 @@ plt.plot(x, nn_one_mean_accuracies)
 
 
 
-![png](Basics_files/Basics_13_2.png)
+![png](/images/digits-classifer/Basics_13_2.png)
 
 
 Increasing the number of neurons in a single hidden layer neural network increased the accuracy from 86% to about 95%.  However, the K-Nearest Neighbors model also had a mean accuracy of 96% so there doesn't seem to be a beneift to using a single hidden layer neural network
@@ -506,7 +506,7 @@ plt.plot(x, nn_two_mean_accuracies)
 
 
 
-![png](Basics_files/Basics_16_1.png)
+![png](/images/digits-classifer/Basics_16_1.png)
 
 
 
@@ -599,7 +599,7 @@ plt.plot(x, nn_three_mean_accuracies)
 
 
 
-![png](Basics_files/Basics_21_2.png)
+![png](/images/digits-classifer/Basics_21_2.png)
 
 
 
