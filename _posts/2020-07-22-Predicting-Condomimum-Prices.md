@@ -244,7 +244,7 @@ ggplot(data = NYC_sm_md_two_story,
 
     ## `geom_smooth()` using formula 'y ~ x'
 
-![](Project_Notebook_files/figure-markdown_github/unnamed-chunk-14-1.png)
+![](/images/Project_Notebook_files/figure-markdown_github/unnamed-chunk-14-1.png)
 
 Let’s adjust our y limits by looking at the maximum sale price
 
@@ -277,7 +277,7 @@ ggplot(data = NYC_sm_md_two_story,
 
     ## Warning: Removed 66 rows containing missing values (geom_point).
 
-![](Project_Notebook_files/figure-markdown_github/unnamed-chunk-16-1.png)
+![](/images/Project_Notebook_files/figure-markdown_github/unnamed-chunk-16-1.png)
 
 We see this also holds up for land square feet (which is included in
 gross square feet as homes include the square footage of the house as
@@ -305,7 +305,7 @@ ggplot(data = NYC_sm_md_two_story,
 
     ## Warning: Removed 21 rows containing missing values (geom_point).
 
-![](Project_Notebook_files/figure-markdown_github/unnamed-chunk-17-1.png)
+![](/images/Project_Notebook_files/figure-markdown_github/unnamed-chunk-17-1.png)
 
 Zooming in also shows for single family homes as the size increases so
 does the price
@@ -353,7 +353,7 @@ ggplot(data = NYC_sm_md_two_story,
 
     ## `geom_smooth()` using formula 'y ~ x'
 
-![](Project_Notebook_files/figure-markdown_github/unnamed-chunk-19-1.png)
+![](/images/Project_Notebook_files/figure-markdown_github/unnamed-chunk-19-1.png)
 
 For each borough we see that homes with larger gross square feet have
 higher sale prices
@@ -521,7 +521,7 @@ ggplot(data = NYC_sm_md_two_story_modified,
 
     ## `geom_smooth()` using formula 'y ~ x'
 
-![](Project_Notebook_files/figure-markdown_github/unnamed-chunk-26-1.png)
+![](/images/Project_Notebook_files/figure-markdown_github/unnamed-chunk-26-1.png)
 
 Linear regression model for each borough - Coefficient Estimates
 ================================================================
