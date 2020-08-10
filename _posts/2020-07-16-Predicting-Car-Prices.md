@@ -281,7 +281,7 @@ function provided in the `caret` library
 featurePlot(cars, cars$price)
 ```
 
-![](Project_Notebook_files/figure-markdown_github/unnamed-chunk-11-1.png)
+![](/images/predicting-cars/unnamed-chunk-11-1.png)
 
 The price column has a few outliers that are above 25000 so those will
 need to be looked at. city\_mpg and highway\_mpg show a negative
@@ -383,7 +383,7 @@ We will plot this to see how the `knn_model` looks like
 plot(knn_model)
 ```
 
-![](Project_Notebook_files/figure-markdown_github/unnamed-chunk-20-1.png)
+![](/images/predicting-cars/unnamed-chunk-20-1.png)
 
 The graph shows that the lowest RMSE is just about 3-4 neighbors with
 the highest at 15 neighbors. This means that more neighbors in *this*
@@ -438,7 +438,7 @@ knn_model_full <- train(price ~ normalized_losses + wheel_base + length + width 
 plot(knn_model_full)
 ```
 
-![](Project_Notebook_files/figure-markdown_github/unnamed-chunk-24-1.png)
+![](/images/predicting-cars/unnamed-chunk-24-1.png)
 
 Using all the features gives us an RMSE of 2500
 
